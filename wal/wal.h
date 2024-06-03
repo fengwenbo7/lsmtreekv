@@ -7,4 +7,15 @@ write ahead log
 #ifndef WAL
 #define WAL
 
+namespace wal{
+    class wal_wrapper{
+        public:
+        void Write();
+        void Read();
+
+        private:
+        
+    };
+}
+
 #endif
