@@ -4,7 +4,8 @@
 namespace wal
 {
     class LogReader{
-
+        public:
+        void Read();
     };
 } // namespace wal
 
